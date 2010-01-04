@@ -1,0 +1,6 @@
+- myhost: example.com
+  id: foo
+  pass: bar
+- myhost: example1.com
+  id: baz
+  pass: hoge

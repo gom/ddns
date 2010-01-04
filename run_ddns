@@ -1,0 +1,7 @@
+#!/usr/bin/ruby
+#-*- coding: utf-8 -*-
+require 'ddns'
+
+if $0 == __FILE__
+  Ddns::Client.new.run_update
+end
